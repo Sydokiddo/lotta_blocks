@@ -9,6 +9,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.sydokiddo.lottablocks.LottaBlocks;
+import net.sydokiddo.lottablocks.block.custom_blocks.LavaLampBlock;
+import net.sydokiddo.lottablocks.block.custom_blocks.ModPillarBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModStairsBlock;
 import net.sydokiddo.lottablocks.item.ModItemGroup;
 
@@ -74,6 +76,10 @@ public class ModBlocks {
     public static final Block SOUL_LANTERN_BLOCK = registerBlock("soul_lantern_block",
             new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.BLACK)
             .sounds(BlockSoundGroup.LANTERN).luminance(10).requiresTool().hardness(3.5f).strength(3.5f)));
+
+    public static final Block LAVA_LAMP = registerBlock("lava_lamp",
+            new LavaLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.GOLD)
+                    .sounds(BlockSoundGroup.GLASS).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
 
 // Registry for Blocks:
 

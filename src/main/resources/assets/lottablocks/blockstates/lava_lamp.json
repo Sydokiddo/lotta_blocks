@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lottablocks:block/lava_lamp_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lottablocks:block/lava_lamp"
+    },
+    "axis=z": {
+      "model": "lottablocks:block/lava_lamp_horizontal",
+      "x": 90
+    }
+  }
+}
