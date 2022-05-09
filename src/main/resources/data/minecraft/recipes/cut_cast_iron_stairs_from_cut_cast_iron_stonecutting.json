@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:cut_cast_iron"
+  },
+  "result": "lottablocks:cut_cast_iron_stairs",
+  "count": 1
+}

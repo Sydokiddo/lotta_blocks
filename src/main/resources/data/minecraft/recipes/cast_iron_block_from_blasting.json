@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "lottablocks:cast_iron_block",
+  "experience": 0.1,
+  "cookingtime": 100
+}

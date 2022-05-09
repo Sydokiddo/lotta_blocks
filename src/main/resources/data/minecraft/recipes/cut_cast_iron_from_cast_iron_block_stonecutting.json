@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:cast_iron_block"
+  },
+  "result": "lottablocks:cut_cast_iron",
+  "count": 4
+}

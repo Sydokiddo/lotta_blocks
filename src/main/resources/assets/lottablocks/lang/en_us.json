@@ -7,5 +7,9 @@
   "block.lottablocks.dripstone_shingles": "Dripstone Shingles",
   "block.lottablocks.dripstone_shingle_slab": "Dripstone Shingle Slab",
   "block.lottablocks.dripstone_shingle_stairs": "Dripstone Shingle Stairs",
-  "block.lottablocks.dripstone_shingle_wall": "Dripstone Shingle Wall"
+  "block.lottablocks.dripstone_shingle_wall": "Dripstone Shingle Wall",
+  "block.lottablocks.cast_iron_block": "Cast Iron Block",
+  "block.lottablocks.cut_cast_iron": "Cut Cast Iron",
+  "block.lottablocks.cut_cast_iron_slab": "Cut Cast Iron Slab",
+  "block.lottablocks.cut_cast_iron_stairs": "Cut Cast Iron Stairs"
 }

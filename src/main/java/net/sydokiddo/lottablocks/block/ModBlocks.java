@@ -18,37 +18,64 @@ public class ModBlocks {
 
     public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
             new ModStairsBlock(ModBlocks.AMETHYST_BRICKS.getDefaultState(),
             FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block DRIPSTONE_SHINGLES = registerBlock("dripstone_shingles",
             new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
-                    .mapColor(MapColor.BROWN).sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
     public static final Block DRIPSTONE_SHINGLE_STAIRS = registerBlock("dripstone_shingle_stairs",
             new ModStairsBlock(ModBlocks.DRIPSTONE_SHINGLES.getDefaultState(),
-                    FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
-                            .mapColor(MapColor.BROWN).sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+            FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
     public static final Block DRIPSTONE_SINGLE_SLAB = registerBlock("dripstone_shingle_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
-                    .mapColor(MapColor.BROWN).sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
     public static final Block DRIPSTONE_SHINGLE_WALL = registerBlock("dripstone_shingle_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
-                    .mapColor(MapColor.BROWN).sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+
+    public static final Block CAST_IRON_BLOCK = registerBlock("cast_iron_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
+    public static final Block CUT_CAST_IRON = registerBlock("cut_cast_iron",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
+    public static final Block CUT_CAST_IRON_STAIRS = registerBlock("cut_cast_iron_stairs",
+            new ModStairsBlock(ModBlocks.CUT_CAST_IRON.getDefaultState(),
+            FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
+    public static final Block CUT_CAST_IRON_SLAB = registerBlock("cut_cast_iron_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
+                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
+    public static final Block LANTERN_BLOCK = registerBlock("lantern_block",
+            new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.BLACK)
+            .sounds(BlockSoundGroup.LANTERN).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
+
+    public static final Block SOUL_LANTERN_BLOCK = registerBlock("soul_lantern_block",
+            new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.BLACK)
+            .sounds(BlockSoundGroup.LANTERN).luminance(10).requiresTool().hardness(3.5f).strength(3.5f)));
+
+
 
 // Registry for Blocks:
 

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "lottablocks:block/cut_cast_iron",
+    "top": "lottablocks:block/cut_cast_iron",
+    "side": "lottablocks:block/cut_cast_iron"
+  }
+}

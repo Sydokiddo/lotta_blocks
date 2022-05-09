@@ -8,6 +8,10 @@
     "lottablocks:dripstone_shingles",
     "lottablocks:dripstone_shingle_slab",
     "lottablocks:dripstone_shingle_stairs",
-    "lottablocks:dripstone_shingle_wall"
+    "lottablocks:dripstone_shingle_wall",
+    "lottablocks:cast_iron_block",
+    "lottablocks:cut_cast_iron",
+    "lottablocks:cut_cast_iron_slab",
+    "lottablocks:cut_cast_iron_stairs"
   ]
 }

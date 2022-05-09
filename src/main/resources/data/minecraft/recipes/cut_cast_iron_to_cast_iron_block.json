@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "lottablocks:cut_cast_iron"
+    }
+  },
+  "result": {
+    "item": "lottablocks:cast_iron_block",
+    "count": 1
+  }
+}
