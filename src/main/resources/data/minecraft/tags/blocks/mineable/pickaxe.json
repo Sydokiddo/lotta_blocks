@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lottablocks:amethyst_bricks",
+    "lottablocks:amethyst_brick_slab",
+    "lottablocks:amethyst_brick_stairs",
+    "lottablocks:amethyst_brick_wall",
+    "lottablocks:dripstone_shingles",
+    "lottablocks:dripstone_shingle_slab",
+    "lottablocks:dripstone_shingle_stairs",
+    "lottablocks:dripstone_shingle_wall"
+  ]
+}

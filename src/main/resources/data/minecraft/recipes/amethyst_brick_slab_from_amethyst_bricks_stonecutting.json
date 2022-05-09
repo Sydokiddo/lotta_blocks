@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:amethyst_bricks"
+  },
+  "result": "lottablocks:amethyst_brick_slab",
+  "count": 2
+}

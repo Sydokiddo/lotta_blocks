@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst",
+    "lottablocks:amethyst_bricks",
+    "lottablocks:amethyst_brick_slab",
+    "lottablocks:amethyst_brick_stairs",
+    "lottablocks:amethyst_brick_wall"
+  ]
+}

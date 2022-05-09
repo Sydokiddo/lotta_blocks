@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lottablocks:block/amethyst_brick_slab"
+    },
+    "type=double": {
+      "model": "lottablocks:block/amethyst_bricks"
+    },
+    "type=top": {
+      "model": "lottablocks:block/amethyst_brick_slab_top"
+    }
+  }
+}
