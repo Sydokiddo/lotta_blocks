@@ -23,6 +23,7 @@
       "net.sydokiddo.lottablocks.LottaBlocks"
     ],
     "client": [
+      "net.sydokiddo.lottablocks.client.LottaBlocksClient"
     ]
   },
   "mixins": [

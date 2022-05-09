@@ -12,6 +12,7 @@ import net.sydokiddo.lottablocks.LottaBlocks;
 import net.sydokiddo.lottablocks.block.custom_blocks.LavaLampBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModPillarBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModStairsBlock;
+import net.sydokiddo.lottablocks.block.custom_blocks.SoulGlassBlock;
 import net.sydokiddo.lottablocks.item.ModItemGroup;
 
 public class ModBlocks {
@@ -34,6 +35,14 @@ public class ModBlocks {
     public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",
+            new ModPillarBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+                    .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block DRIPSTONE_SHINGLES = registerBlock("dripstone_shingles",
             new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
@@ -79,7 +88,11 @@ public class ModBlocks {
 
     public static final Block LAVA_LAMP = registerBlock("lava_lamp",
             new LavaLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.GOLD)
-                    .sounds(BlockSoundGroup.GLASS).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
+            .sounds(BlockSoundGroup.METAL).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
+
+    public static final Block SOUL_GLASS = registerBlock("soul_glass",
+            new SoulGlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.BROWN)
+            .sounds(BlockSoundGroup.GLASS).hardness(0.3f).strength(0.3f)));
 
 // Registry for Blocks:
 

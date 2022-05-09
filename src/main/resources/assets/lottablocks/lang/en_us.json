@@ -4,6 +4,8 @@
   "block.lottablocks.amethyst_brick_slab": "Amethyst Brick Slab",
   "block.lottablocks.amethyst_brick_stairs": "Amethyst Brick Stairs",
   "block.lottablocks.amethyst_brick_wall": "Amethyst Brick Wall",
+  "block.lottablocks.amethyst_pillar": "Amethyst Pillar",
+  "block.lottablocks.chiseled_amethyst": "Chiseled Amethyst",
   "block.lottablocks.dripstone_shingles": "Dripstone Shingles",
   "block.lottablocks.dripstone_shingle_slab": "Dripstone Shingle Slab",
   "block.lottablocks.dripstone_shingle_stairs": "Dripstone Shingle Stairs",
@@ -14,5 +16,6 @@
   "block.lottablocks.cut_cast_iron_stairs": "Cut Cast Iron Stairs",
   "block.lottablocks.lantern_block": "Lantern Block",
   "block.lottablocks.soul_lantern_block": "Soul Lantern Block",
-  "block.lottablocks.lava_lamp": "Lava Lamp"
+  "block.lottablocks.lava_lamp": "Lava Lamp",
+  "block.lottablocks.soul_glass": "Soul Glass"
 }

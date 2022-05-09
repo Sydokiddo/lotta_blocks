@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "lottablocks:block/amethyst_pillar_top",
+    "side": "lottablocks:block/amethyst_pillar"
+  }
+}
