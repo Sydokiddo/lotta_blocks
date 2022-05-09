@@ -75,8 +75,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.BLACK)
             .sounds(BlockSoundGroup.LANTERN).luminance(10).requiresTool().hardness(3.5f).strength(3.5f)));
 
-
-
 // Registry for Blocks:
 
     private static Block registerBlock(String name, Block block){

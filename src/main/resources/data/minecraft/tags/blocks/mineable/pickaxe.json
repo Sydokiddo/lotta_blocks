@@ -12,6 +12,8 @@
     "lottablocks:cast_iron_block",
     "lottablocks:cut_cast_iron",
     "lottablocks:cut_cast_iron_slab",
-    "lottablocks:cut_cast_iron_stairs"
+    "lottablocks:cut_cast_iron_stairs",
+    "lottablocks:lantern_block",
+    "lottablocks:soul_lantern_block"
   ]
 }

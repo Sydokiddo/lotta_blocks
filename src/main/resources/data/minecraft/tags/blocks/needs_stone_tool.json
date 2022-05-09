@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lottablocks:cast_iron_block",
+    "lottablocks:cut_cast_iron",
+    "lottablocks:cut_cast_iron_slab",
+    "lottablocks:cut_cast_iron_stairs"
+  ]
+}

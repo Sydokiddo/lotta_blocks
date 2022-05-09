@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "lottablocks:block/lantern_block_top",
+    "side": "lottablocks:block/lantern_block"
+  }
+}

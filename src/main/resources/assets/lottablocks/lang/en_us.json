@@ -11,5 +11,8 @@
   "block.lottablocks.cast_iron_block": "Cast Iron Block",
   "block.lottablocks.cut_cast_iron": "Cut Cast Iron",
   "block.lottablocks.cut_cast_iron_slab": "Cut Cast Iron Slab",
-  "block.lottablocks.cut_cast_iron_stairs": "Cut Cast Iron Stairs"
+  "block.lottablocks.cut_cast_iron_stairs": "Cut Cast Iron Stairs",
+  "block.lottablocks.lantern_block": "Lantern Block",
+  "block.lottablocks.soul_lantern_block": "Soul Lantern Block",
+  "block.lottablocks.magma_lamp": "Magma Lamp"
 }

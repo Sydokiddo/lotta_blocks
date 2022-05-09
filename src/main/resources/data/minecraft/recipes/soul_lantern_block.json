@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "ISI",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "item": "minecraft:soul_torch"
+    }
+  },
+  "result": {
+    "item": "ambientsmp:soul_lantern_block",
+    "count": 1
+  }
+}
