@@ -75,7 +75,24 @@ public class ModBlocks {
 
     public static final Block CUT_CAST_IRON_SLAB = registerBlock("cut_cast_iron_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
-                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
+    public static final Block TUFF_BRICKS = registerBlock("tuff_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.TUFF)
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+
+    public static final Block TUFF_BRICK_STAIRS = registerBlock("tuff_brick_stairs",
+            new ModStairsBlock(ModBlocks.TUFF_BRICKS.getDefaultState(),
+            FabricBlockSettings.copyOf(Blocks.TUFF)
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+
+    public static final Block TUFF_BRICK_SLAB = registerBlock("tuff_brick_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.TUFF)
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+
+    public static final Block TUFF_BRICK_WALL = registerBlock("tuff_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.TUFF)
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
 
     public static final Block LANTERN_BLOCK = registerBlock("lantern_block",
             new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.BLACK)

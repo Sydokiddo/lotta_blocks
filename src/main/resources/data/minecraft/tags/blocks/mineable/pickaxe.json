@@ -17,6 +17,10 @@
     "lottablocks:cut_cast_iron_stairs",
     "lottablocks:lantern_block",
     "lottablocks:soul_lantern_block",
-    "lottablocks:lava_lamp"
+    "lottablocks:lava_lamp",
+    "lottablocks:tuff_bricks",
+    "lottablocks:tuff_brick_slab",
+    "lottablocks:tuff_brick_stairs",
+    "lottablocks:tuff_brick_wall"
   ]
 }

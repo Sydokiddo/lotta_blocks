@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "lottablocks:amethyst_brick_wall",
-    "lottablocks:dripstone_shingle_wall"
+    "lottablocks:dripstone_shingle_wall",
+    "lottablocks:tuff_brick_wall"
   ]
 }

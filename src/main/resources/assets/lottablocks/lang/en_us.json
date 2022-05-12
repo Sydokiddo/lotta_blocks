@@ -17,5 +17,9 @@
   "block.lottablocks.lantern_block": "Lantern Block",
   "block.lottablocks.soul_lantern_block": "Soul Lantern Block",
   "block.lottablocks.lava_lamp": "Lava Lamp",
-  "block.lottablocks.soul_glass": "Soul Glass"
+  "block.lottablocks.soul_glass": "Soul Glass",
+  "block.lottablocks.tuff_bricks": "Tuff Bricks",
+  "block.lottablocks.tuff_brick_slab": "Tuff Brick Slab",
+  "block.lottablocks.tuff_brick_stairs": "Tuff Brick Stairs",
+  "block.lottablocks.tuff_brick_wall": "Tuff Brick Wall"
 }

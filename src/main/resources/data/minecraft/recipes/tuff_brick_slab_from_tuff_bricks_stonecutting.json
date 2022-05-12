@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:tuff_bricks"
+  },
+  "result": "lottablocks:tuff_brick_slab",
+  "count": 2
+}

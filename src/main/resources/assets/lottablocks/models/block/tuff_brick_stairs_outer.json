@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lottablocks:block/tuff_bricks",
+    "top": "lottablocks:block/tuff_bricks",
+    "side": "lottablocks:block/tuff_bricks"
+  }
+}
