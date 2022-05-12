@@ -12,7 +12,6 @@ import net.sydokiddo.lottablocks.LottaBlocks;
 import net.sydokiddo.lottablocks.block.custom_blocks.LavaLampBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModPillarBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModStairsBlock;
-import net.sydokiddo.lottablocks.block.custom_blocks.SoulGlassBlock;
 import net.sydokiddo.lottablocks.item.ModItemGroup;
 
 public class ModBlocks {
@@ -89,10 +88,6 @@ public class ModBlocks {
     public static final Block LAVA_LAMP = registerBlock("lava_lamp",
             new LavaLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.GOLD)
             .sounds(BlockSoundGroup.METAL).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
-
-    public static final Block SOUL_GLASS = registerBlock("soul_glass",
-            new SoulGlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.BROWN)
-            .sounds(BlockSoundGroup.GLASS).hardness(0.3f).strength(0.3f)));
 
 // Registry for Blocks:
 
