@@ -14,6 +14,7 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.random.AbstractRandom;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
@@ -39,11 +40,11 @@ public class SoulGlassBlock extends AbstractGlassBlock {
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
         if (entity == null || entity.getBlockStateAtPos().isOf(this)) {
             if (world.isClient) {
-                Random random = world.getRandom();
+                Random random = (Random) world.getRandom();
                 assert entity != null;
                 boolean bl = entity.lastRenderX != entity.getX() || entity.lastRenderZ != entity.getZ();
                 if (bl && random.nextBoolean()) {
-                    world.addParticle(ParticleTypes.SOUL, entity.getX(), (double)(pos.getY() + 1), entity.getZ(), (double)(MathHelper.nextBetween(random, -1.0F, 1.0F) * 0.083333336F), 0.05000000074505806D, (double)(MathHelper.nextBetween(random, -1.0F, 1.0F) * 0.083333336F));
+                    world.addParticle(ParticleTypes.SOUL, entity.getX(), (double)(pos.getY() + 1), entity.getZ(), (double)(MathHelper.nextBetween((AbstractRandom) random, -1.0F, 1.0F) * 0.083333336F), 0.05000000074505806D, (double)(MathHelper.nextBetween((AbstractRandom) random, -1.0F, 1.0F) * 0.083333336F));
                     entity.playSound(SoundEvents.PARTICLE_SOUL_ESCAPE, 1, 1);
                 }
             }
