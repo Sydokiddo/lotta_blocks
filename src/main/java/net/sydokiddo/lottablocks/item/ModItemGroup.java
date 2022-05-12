@@ -8,6 +8,9 @@ import net.sydokiddo.lottablocks.LottaBlocks;
 import net.sydokiddo.lottablocks.block.ModBlocks;
 
 public class ModItemGroup {
+
+    // Registry for the Lotta Blocks Item Group in the Creative Inventory
+
     public static final ItemGroup LOTTA_BLOCKS = FabricItemGroupBuilder.build(new Identifier(LottaBlocks.MOD_ID, "lottablocks"),
             () -> new ItemStack(ModBlocks.AMETHYST_BRICKS));
 }

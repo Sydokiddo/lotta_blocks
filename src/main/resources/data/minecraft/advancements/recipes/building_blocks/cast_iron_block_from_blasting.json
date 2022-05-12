@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:cast_iron_block"
+        "recipe": "minecraft:cast_iron_block_from_blasting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cast_iron_block"
+      "minecraft:cast_iron_block_from_blasting"
     ]
   }
 }

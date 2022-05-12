@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.sydokiddo.lottablocks.LottaBlocks;
 import net.sydokiddo.lottablocks.block.custom_blocks.LavaLampBlock;
+import net.sydokiddo.lottablocks.block.custom_blocks.ModGlassBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModPillarBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModStairsBlock;
 import net.sydokiddo.lottablocks.item.ModItemGroup;
@@ -105,6 +106,10 @@ public class ModBlocks {
     public static final Block LAVA_LAMP = registerBlock("lava_lamp",
             new LavaLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.GOLD)
             .sounds(BlockSoundGroup.METAL).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
+
+    public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
+            new ModGlassBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+            .nonOpaque().mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.GLASS)));
 
 // Registry for Blocks:
 

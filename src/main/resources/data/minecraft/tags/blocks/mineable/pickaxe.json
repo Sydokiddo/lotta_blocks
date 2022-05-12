@@ -21,6 +21,7 @@
     "lottablocks:tuff_bricks",
     "lottablocks:tuff_brick_slab",
     "lottablocks:tuff_brick_stairs",
-    "lottablocks:tuff_brick_wall"
+    "lottablocks:tuff_brick_wall",
+    "lottablocks:reinforced_glass"
   ]
 }

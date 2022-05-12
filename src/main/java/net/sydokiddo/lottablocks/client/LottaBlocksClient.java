@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 import net.sydokiddo.lottablocks.block.ModBlocks;
+import net.sydokiddo.lottablocks.block.custom_blocks.ModGlassBlock;
 
 @net.fabricmc.api.Environment(net.fabricmc.api.EnvType.CLIENT)
 public class LottaBlocksClient implements ClientModInitializer {
@@ -21,7 +22,9 @@ public class LottaBlocksClient implements ClientModInitializer {
         // Renders Blocks in List as Transparent (With Translucency)
 
         BlockRenderLayerMap.INSTANCE.putBlocks(
-                RenderLayer.getTranslucent()
+                RenderLayer.getTranslucent(),
+
+                ModBlocks.REINFORCED_GLASS
 
         );
     }
