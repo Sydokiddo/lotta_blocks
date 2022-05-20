@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:obsidian",
+    "lottablocks:obsidian_bricks",
+    "lottablocks:obsidian_pillar"
+  ]
+}

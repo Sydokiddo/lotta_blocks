@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:obsidian_bricks"
+  },
+  "result": "lottablocks:obsidian_brick_slab",
+  "count": 2
+}

@@ -4,6 +4,7 @@
     "lottablocks:amethyst_brick_slab",
     "lottablocks:dripstone_shingle_slab",
     "lottablocks:cut_cast_iron_slab",
-    "lottablocks:tuff_brick_slab"
+    "lottablocks:tuff_brick_slab",
+    "lottablocks:obsidian_brick_slab"
   ]
 }

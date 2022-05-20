@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "lottablocks:reinforced_glass"
+    "lottablocks:reinforced_glass",
+    "lottablocks:obsidian_bricks",
+    "lottablocks:obsidian_brick_slab",
+    "lottablocks:obsidian_brick_stairs",
+    "lottablocks:obsidian_brick_wall",
+    "lottablocks:obsidian_pillar"
   ]
 }

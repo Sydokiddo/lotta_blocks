@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lottablocks:block/obsidian_bricks"
+    }
+  }
+}

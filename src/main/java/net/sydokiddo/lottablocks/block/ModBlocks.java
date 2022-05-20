@@ -14,6 +14,7 @@ import net.sydokiddo.lottablocks.block.custom_blocks.ModGlassBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModPillarBlock;
 import net.sydokiddo.lottablocks.block.custom_blocks.ModStairsBlock;
 import net.sydokiddo.lottablocks.item.ModItemGroup;
+import net.sydokiddo.lottablocks.sound.ModSoundEvents;
 
 public class ModBlocks {
 
@@ -21,28 +22,28 @@ public class ModBlocks {
 
     public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
             new ModStairsBlock(ModBlocks.AMETHYST_BRICKS.getDefaultState(),
             FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",
             new ModPillarBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-            .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-                    .mapColor(MapColor.PURPLE).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+                    .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block DRIPSTONE_SHINGLES = registerBlock("dripstone_shingles",
             new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
@@ -80,20 +81,20 @@ public class ModBlocks {
 
     public static final Block TUFF_BRICKS = registerBlock("tuff_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.TUFF)
-            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(ModSoundEvents.TUFF_BRICKS)));
 
     public static final Block TUFF_BRICK_STAIRS = registerBlock("tuff_brick_stairs",
             new ModStairsBlock(ModBlocks.TUFF_BRICKS.getDefaultState(),
             FabricBlockSettings.copyOf(Blocks.TUFF)
-            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(ModSoundEvents.TUFF_BRICKS)));
 
     public static final Block TUFF_BRICK_SLAB = registerBlock("tuff_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.TUFF)
-            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(ModSoundEvents.TUFF_BRICKS)));
 
     public static final Block TUFF_BRICK_WALL = registerBlock("tuff_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.TUFF)
-            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(BlockSoundGroup.TUFF)));
+            .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(ModSoundEvents.TUFF_BRICKS)));
 
     public static final Block LANTERN_BLOCK = registerBlock("lantern_block",
             new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.BLACK)
@@ -105,11 +106,34 @@ public class ModBlocks {
 
     public static final Block LAVA_LAMP = registerBlock("lava_lamp",
             new LavaLampBlock(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.GOLD)
-            .sounds(BlockSoundGroup.METAL).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
+            .sounds(ModSoundEvents.LAVA_LAMP).luminance(15).requiresTool().hardness(3.5f).strength(3.5f)));
 
     public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
             new ModGlassBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
             .nonOpaque().mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.GLASS)));
+
+    public static final Block OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block OBSIDIAN_BRICK_STAIRS = registerBlock("obsidian_brick_stairs",
+            new ModStairsBlock(ModBlocks.OBSIDIAN_BRICKS.getDefaultState(),
+                    FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+                            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block OBSIDIAN_PILLAR = registerBlock("obsidian_pillar",
+            new ModPillarBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
 
 // Registry for Blocks:
 

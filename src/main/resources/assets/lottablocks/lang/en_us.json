@@ -22,5 +22,10 @@
   "block.lottablocks.tuff_brick_slab": "Tuff Brick Slab",
   "block.lottablocks.tuff_brick_stairs": "Tuff Brick Stairs",
   "block.lottablocks.tuff_brick_wall": "Tuff Brick Wall",
-  "block.lottablocks.reinforced_glass": "Reinforced Glass"
+  "block.lottablocks.reinforced_glass": "Reinforced Glass",
+  "block.lottablocks.obsidian_bricks": "Obsidian Bricks",
+  "block.lottablocks.obsidian_brick_slab": "Obsidian Brick Slab",
+  "block.lottablocks.obsidian_brick_stairs": "Obsidian Brick Stairs",
+  "block.lottablocks.obsidian_brick_wall": "Obsidian Brick Wall",
+  "block.lottablocks.obsidian_pillar": "Obsidian Pillar"
 }

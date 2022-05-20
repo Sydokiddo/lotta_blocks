@@ -1,0 +1,180 @@
+{
+  "block.amethyst_bricks.place": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/amethyst_bricks/place1",
+      "lottablocks:block/amethyst_bricks/place2",
+      "lottablocks:block/amethyst_bricks/place3",
+      "lottablocks:block/amethyst_bricks/place4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.amethyst_bricks.break": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/amethyst_bricks/break1",
+      "lottablocks:block/amethyst_bricks/break2",
+      "lottablocks:block/amethyst_bricks/break3",
+      "lottablocks:block/amethyst_bricks/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.amethyst_bricks.hit": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/amethyst_bricks/break1",
+      "lottablocks:block/amethyst_bricks/break2",
+      "lottablocks:block/amethyst_bricks/break3",
+      "lottablocks:block/amethyst_bricks/break4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.amethyst_bricks.step": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/amethyst_bricks/step1",
+      "lottablocks:block/amethyst_bricks/step2",
+      "lottablocks:block/amethyst_bricks/step3",
+      "lottablocks:block/amethyst_bricks/step4",
+      "lottablocks:block/amethyst_bricks/step5",
+      "lottablocks:block/amethyst_bricks/step6",
+      "lottablocks:block/amethyst_bricks/step7",
+      "lottablocks:block/amethyst_bricks/step8",
+      "lottablocks:block/amethyst_bricks/step9",
+      "lottablocks:block/amethyst_bricks/step10",
+      "lottablocks:block/amethyst_bricks/step11",
+      "lottablocks:block/amethyst_bricks/step12",
+      "lottablocks:block/amethyst_bricks/step13",
+      "lottablocks:block/amethyst_bricks/step14"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.amethyst_bricks.fall": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/amethyst_bricks/step1",
+      "lottablocks:block/amethyst_bricks/step2",
+      "lottablocks:block/amethyst_bricks/step3",
+      "lottablocks:block/amethyst_bricks/step4",
+      "lottablocks:block/amethyst_bricks/step5",
+      "lottablocks:block/amethyst_bricks/step6",
+      "lottablocks:block/amethyst_bricks/step7",
+      "lottablocks:block/amethyst_bricks/step8",
+      "lottablocks:block/amethyst_bricks/step9",
+      "lottablocks:block/amethyst_bricks/step10",
+      "lottablocks:block/amethyst_bricks/step11",
+      "lottablocks:block/amethyst_bricks/step12",
+      "lottablocks:block/amethyst_bricks/step13",
+      "lottablocks:block/amethyst_bricks/step14"
+    ]
+  },
+  "block.tuff_bricks.place": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/tuff_bricks/break1",
+      "lottablocks:block/tuff_bricks/break2",
+      "lottablocks:block/tuff_bricks/break3",
+      "lottablocks:block/tuff_bricks/break4",
+      "lottablocks:block/tuff_bricks/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.tuff_bricks.break": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/tuff_bricks/break1",
+      "lottablocks:block/tuff_bricks/break2",
+      "lottablocks:block/tuff_bricks/break3",
+      "lottablocks:block/tuff_bricks/break4",
+      "lottablocks:block/tuff_bricks/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.tuff_bricks.hit": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/tuff_bricks/break1",
+      "lottablocks:block/tuff_bricks/break2",
+      "lottablocks:block/tuff_bricks/break3",
+      "lottablocks:block/tuff_bricks/break4",
+      "lottablocks:block/tuff_bricks/break5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.tuff_bricks.step": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/tuff_bricks/step1",
+      "lottablocks:block/tuff_bricks/step2",
+      "lottablocks:block/tuff_bricks/step3",
+      "lottablocks:block/tuff_bricks/step4",
+      "lottablocks:block/tuff_bricks/step5",
+      "lottablocks:block/tuff_bricks/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.tuff_bricks.fall": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/tuff_bricks/step1",
+      "lottablocks:block/tuff_bricks/step2",
+      "lottablocks:block/tuff_bricks/step3",
+      "lottablocks:block/tuff_bricks/step4",
+      "lottablocks:block/tuff_bricks/step5",
+      "lottablocks:block/tuff_bricks/step6"
+    ]
+  },
+  "block.lava_lamp.place": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/lava_lamp/break1",
+      "lottablocks:block/lava_lamp/break2",
+      "lottablocks:block/lava_lamp/break3",
+      "lottablocks:block/lava_lamp/break4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.lava_lamp.break": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/lava_lamp/break1",
+      "lottablocks:block/lava_lamp/break2",
+      "lottablocks:block/lava_lamp/break3",
+      "lottablocks:block/lava_lamp/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.lava_lamp.hit": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/lava_lamp/break1",
+      "lottablocks:block/lava_lamp/break2",
+      "lottablocks:block/lava_lamp/break3",
+      "lottablocks:block/lava_lamp/break4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.lava_lamp.step": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/lava_lamp/step1",
+      "lottablocks:block/lava_lamp/step2",
+      "lottablocks:block/lava_lamp/step3",
+      "lottablocks:block/lava_lamp/step4",
+      "lottablocks:block/lava_lamp/step5",
+      "lottablocks:block/lava_lamp/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.lava_lamp.fall": {
+    "category": "block",
+    "sounds": [
+      "lottablocks:block/lava_lamp/step1",
+      "lottablocks:block/lava_lamp/step2",
+      "lottablocks:block/lava_lamp/step3",
+      "lottablocks:block/lava_lamp/step4",
+      "lottablocks:block/lava_lamp/step5",
+      "lottablocks:block/lava_lamp/step6"
+    ]
+  }
+}
