@@ -134,7 +134,6 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
-
 // Registry for Blocks:
 
     private static Block registerBlock(String name, Block block){
