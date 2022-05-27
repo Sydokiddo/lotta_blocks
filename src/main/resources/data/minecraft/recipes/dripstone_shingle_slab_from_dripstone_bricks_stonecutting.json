@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:dripstone_bricks"
+  },
+  "result": "lottablocks:dripstone_shingle_slab",
+  "count": 2
+}

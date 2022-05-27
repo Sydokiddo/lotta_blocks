@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lottablocks:dripstone_bricks"
+  },
+  "result": "lottablocks:dripstone_brick_stairs",
+  "count": 1
+}

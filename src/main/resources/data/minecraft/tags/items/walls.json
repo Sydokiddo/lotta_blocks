@@ -4,6 +4,7 @@
     "lottablocks:amethyst_brick_wall",
     "lottablocks:dripstone_shingle_wall",
     "lottablocks:tuff_brick_wall",
-    "lottablocks:obsidian_brick_wall"
+    "lottablocks:obsidian_brick_wall",
+    "lottablocks:dripstone_brick_wall"
   ]
 }

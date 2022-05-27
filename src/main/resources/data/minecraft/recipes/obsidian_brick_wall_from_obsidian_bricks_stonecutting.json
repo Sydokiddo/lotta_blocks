@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "lottablocks:obsidian_bricks"
   },
-  "result": "lottablocks:obsidian_brick_stairs",
+  "result": "lottablocks:obsidian_brick_wall",
   "count": 1
 }

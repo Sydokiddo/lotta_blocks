@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lottablocks:dripstone_bricks"
+    }
+  },
+  "result": {
+    "item": "lottablocks:dripstone_brick_stairs",
+    "count": 4
+  }
+}

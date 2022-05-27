@@ -43,7 +43,24 @@ public class ModBlocks {
 
     public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
-                    .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
+            .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
+
+    public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+
+    public static final Block DRIPSTONE_BRICK_STAIRS = registerBlock("dripstone_brick_stairs",
+            new ModStairsBlock(ModBlocks.DRIPSTONE_BRICKS.getDefaultState(),
+            FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+
+    public static final Block DRIPSTONE_BRICK_SLAB = registerBlock("dripstone_brick_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+
+    public static final Block DRIPSTONE_BRICK_WALL = registerBlock("dripstone_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
+            .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
     public static final Block DRIPSTONE_SHINGLES = registerBlock("dripstone_shingles",
             new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
@@ -54,7 +71,7 @@ public class ModBlocks {
             FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
             .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
-    public static final Block DRIPSTONE_SINGLE_SLAB = registerBlock("dripstone_shingle_slab",
+    public static final Block DRIPSTONE_SHINGLE_SLAB = registerBlock("dripstone_shingle_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
             .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
@@ -118,20 +135,24 @@ public class ModBlocks {
 
     public static final Block OBSIDIAN_BRICK_STAIRS = registerBlock("obsidian_brick_stairs",
             new ModStairsBlock(ModBlocks.OBSIDIAN_BRICKS.getDefaultState(),
-                    FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
-                            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+            FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
-                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
-                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block OBSIDIAN_PILLAR = registerBlock("obsidian_pillar",
             new ModPillarBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)
-                    .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SOUL_GLASS = registerBlock("soul_glass",
+            new GlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.BROWN)
+            .nonOpaque().sounds(BlockSoundGroup.GLASS).hardness(0.3f).strength(0.3f)));
 
 
 // Registry for Blocks:
