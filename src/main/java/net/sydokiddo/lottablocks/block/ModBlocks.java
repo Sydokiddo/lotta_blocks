@@ -96,6 +96,14 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
             .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
+    public static final Block CAST_IRON_DOOR = registerBlock("cast_iron_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR)
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
+    public static final Block CAST_IRON_TRAPDOOR = registerBlock("cast_iron_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR)
+            .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+
     public static final Block TUFF_BRICKS = registerBlock("tuff_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.TUFF)
             .mapColor(MapColor.TERRACOTTA_GRAY).requiresTool().sounds(ModSoundEvents.TUFF_BRICKS)));

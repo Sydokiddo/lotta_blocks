@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_trapdoor"
+  },
+  "result": "lottablocks:cast_iron_trapdoor",
+  "experience": 0.1,
+  "cookingtime": 100
+}

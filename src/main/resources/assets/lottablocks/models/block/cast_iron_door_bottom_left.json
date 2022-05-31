@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "bottom": "lottablocks:block/cast_iron_door_bottom",
+    "top": "lottablocks:block/cast_iron_door_top"
+  }
+}
