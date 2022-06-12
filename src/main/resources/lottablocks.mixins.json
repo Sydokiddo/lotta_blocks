@@ -4,6 +4,9 @@
   "package": "net.sydokiddo.lottablocks.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AbstractBannerBlockMixin",
+    "BannerBlockEntityMixin",
+    "BannerBlockEntityRendererMixin",
     "PlayerManagerMixin"
   ],
   "client": [

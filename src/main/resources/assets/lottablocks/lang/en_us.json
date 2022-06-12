@@ -33,5 +33,18 @@
   "block.lottablocks.obsidian_brick_slab": "Obsidian Brick Slab",
   "block.lottablocks.obsidian_brick_stairs": "Obsidian Brick Stairs",
   "block.lottablocks.obsidian_brick_wall": "Obsidian Brick Wall",
-  "block.lottablocks.obsidian_pillar": "Obsidian Pillar"
+  "block.lottablocks.obsidian_pillar": "Obsidian Pillar",
+  "block.lottablocks.amethyst_floodlight": "Amethyst Floodlight",
+  "block.lottablocks.glow_glass": "Glow Glass",
+  "block.lottablocks.glow_glass_pane": "Glow Glass Pane",
+  "block.lottablocks.framed_oak_planks": "Framed Oak Planks",
+  "block.lottablocks.framed_birch_planks": "Framed Birch Planks",
+  "block.lottablocks.framed_spruce_planks": "Framed Spruce Planks",
+  "block.lottablocks.framed_acacia_planks": "Framed Acacia Planks",
+  "block.lottablocks.framed_dark_oak_planks": "Framed Dark Oak Planks",
+  "block.lottablocks.framed_mangrove_planks": "Framed Mangrove Planks",
+  "block.lottablocks.framed_crimson_planks": "Framed Crimson Planks",
+  "block.lottablocks.framed_warped_planks": "Framed Warped Planks",
+  "block.lottablocks.bamboo_planks": "Bamboo Planks"
+
 }

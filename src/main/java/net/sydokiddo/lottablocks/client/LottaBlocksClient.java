@@ -14,7 +14,10 @@ public class LottaBlocksClient implements ClientModInitializer {
         // Renders Blocks in List as Transparent (Without Translucency)
 
         BlockRenderLayerMap.INSTANCE.putBlocks(
-                RenderLayer.getCutout()
+                RenderLayer.getCutout(),
+
+                ModBlocks.AMETHYST_FLOODLIGHT,
+                ModBlocks.GLOW_GLASS
 
         );
 

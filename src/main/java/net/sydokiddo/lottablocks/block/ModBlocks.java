@@ -9,10 +9,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.sydokiddo.lottablocks.LottaBlocks;
-import net.sydokiddo.lottablocks.block.custom_blocks.LavaLampBlock;
-import net.sydokiddo.lottablocks.block.custom_blocks.ModGlassBlock;
-import net.sydokiddo.lottablocks.block.custom_blocks.ModPillarBlock;
-import net.sydokiddo.lottablocks.block.custom_blocks.ModStairsBlock;
+import net.sydokiddo.lottablocks.block.custom_blocks.*;
 import net.sydokiddo.lottablocks.item.ModItemGroup;
 import net.sydokiddo.lottablocks.sound.ModSoundEvents;
 
@@ -44,6 +41,10 @@ public class ModBlocks {
     public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
+
+    public static final Block AMETHYST_FLOODLIGHT = registerBlock("amethyst_floodlight",
+            new AmethystFloodlightBlock(FabricBlockSettings.of(Material.DECORATION, MapColor.BLACK)
+            .nonOpaque().sounds(BlockSoundGroup.LANTERN).luminance(15).strength(3.5f)));
 
     public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
@@ -161,6 +162,16 @@ public class ModBlocks {
     public static final Block SOUL_GLASS = registerBlock("soul_glass",
             new GlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.BROWN)
             .nonOpaque().sounds(BlockSoundGroup.GLASS).hardness(0.3f).strength(0.3f)));
+
+    public static final Block GLOW_GLASS = registerBlock("glow_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
+            .nonOpaque().mapColor(MapColor.CYAN).sounds(BlockSoundGroup.GLASS)
+            .luminance(5).emissiveLighting((state, world, pos) -> true)));
+
+//    public static final Block GLOW_GLASS_PANE = registerBlock("glow_glass_pane",
+//            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)
+//            .nonOpaque().mapColor(MapColor.CYAN).sounds(BlockSoundGroup.GLASS)
+//            .luminance(5).emissiveLighting((state, world, pos) -> true)));
 
 
 // Registry for Blocks:
