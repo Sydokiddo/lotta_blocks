@@ -18,28 +18,28 @@ public class ModBlocks {
 // List of Blocks:
 
     public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+            new AmethystBricksBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
-            new ModStairsBlock(ModBlocks.AMETHYST_BRICKS.getDefaultState(),
+            new AmethystBrickStairsBlock(ModBlocks.AMETHYST_BRICKS.getDefaultState(),
             FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+            new AmethystBrickSlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+            new AmethystBrickWallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",
-            new ModPillarBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+            new AmethystPillarBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
-            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+            new AmethystBricksBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
             .mapColor(MapColor.PURPLE).requiresTool().sounds(ModSoundEvents.AMETHYST_BRICKS)));
 
     public static final Block AMETHYST_FLOODLIGHT = registerBlock("amethyst_floodlight",
@@ -165,14 +165,29 @@ public class ModBlocks {
 
     public static final Block GLOW_GLASS = registerBlock("glow_glass",
             new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)
-            .nonOpaque().mapColor(MapColor.CYAN).sounds(BlockSoundGroup.GLASS)
+            .nonOpaque().mapColor(MapColor.CLEAR).sounds(BlockSoundGroup.GLASS)
             .luminance(5).emissiveLighting((state, world, pos) -> true)));
 
-//    public static final Block GLOW_GLASS_PANE = registerBlock("glow_glass_pane",
-//            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)
-//            .nonOpaque().mapColor(MapColor.CYAN).sounds(BlockSoundGroup.GLASS)
-//            .luminance(5).emissiveLighting((state, world, pos) -> true)));
+//    public static final Block FRAMED_GLASS = registerBlock("framed_glass",
+//            new GlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.CLEAR)
+//            .nonOpaque().sounds(BlockSoundGroup.GLASS).hardness(0.5f).strength(0.5f)));
 
+//    public static final Block SCULK_SPINE = registerBlock("sculk_spine",
+//            new SculkSpineBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK)
+//            .mapColor(MapColor.OFF_WHITE).requiresTool().sounds(BlockSoundGroup.SCULK_CATALYST)));
+
+    public static final Block BAMBOO_THATCH = registerBlock("bamboo_thatch",
+            new BambooThatchBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.PALE_YELLOW)
+            .sounds(BlockSoundGroup.SCAFFOLDING).strength(0.8f)));
+
+    public static final Block BAMBOO_THATCH_STAIRS = registerBlock("bamboo_thatch_stairs",
+            new ModStairsBlock(ModBlocks.BAMBOO_THATCH.getDefaultState(),
+            FabricBlockSettings.copyOf(ModBlocks.BAMBOO_THATCH)
+            .mapColor(MapColor.PALE_YELLOW).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block BAMBOO_THATCH_SLAB = registerBlock("bamboo_thatch_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.BAMBOO_THATCH)
+            .mapColor(MapColor.PALE_YELLOW).sounds(BlockSoundGroup.SCAFFOLDING)));
 
 // Registry for Blocks:
 

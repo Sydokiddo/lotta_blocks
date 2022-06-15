@@ -45,6 +45,16 @@
   "block.lottablocks.framed_mangrove_planks": "Framed Mangrove Planks",
   "block.lottablocks.framed_crimson_planks": "Framed Crimson Planks",
   "block.lottablocks.framed_warped_planks": "Framed Warped Planks",
-  "block.lottablocks.bamboo_planks": "Bamboo Planks"
-
+  "block.lottablocks.bamboo_thatch": "Bamboo Thatch",
+  "block.lottablocks.bamboo_thatch_stairs": "Bamboo Thatch Stairs",
+  "block.lottablocks.bamboo_thatch_slab": "Bamboo Thatch Slab",
+  "lottablocks.block.bamboo_torch": "Bamboo Torch",
+  "block.lottablocks.sculk_spine": "Sculk Spine",
+  "block.lottablocks.spinal_bricks": "Spinal Bricks",
+  "block.lottablocks.spinal_brick_slab": "Spinal Brick Slab",
+  "block.lottablocks.spinal_brick_stairs": "Spinal Brick Stairs",
+  "block.lottablocks.spinal_brick_wall": "Spinal Brick Wall",
+  "block.lottablocks.golden_bars": "Golden Bars",
+  "block.lottablocks.copper_bars": "Copper Bars",
+  "block.lottablocks.framed_glass": "Framed Glass"
 }

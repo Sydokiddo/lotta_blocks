@@ -2,6 +2,9 @@
   "variants": {
     "hanging=true": {
       "model": "lottablocks:block/amethyst_floodlight"
+    },
+    "hanging=false": {
+      "model": "lottablocks:block/amethyst_floodlight"
     }
   }
 }

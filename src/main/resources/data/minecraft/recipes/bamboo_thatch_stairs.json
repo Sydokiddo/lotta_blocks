@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lottablocks:bamboo_thatch"
+    }
+  },
+  "result": {
+    "item": "lottablocks:bamboo_thatch_stairs",
+    "count": 4
+  }
+}

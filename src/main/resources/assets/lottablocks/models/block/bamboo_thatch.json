@@ -1,0 +1,6 @@
+{
+  "parent": "lottablocks:block/template_rotatable_block",
+  "textures": {
+    "pattern": "lottablocks:block/bamboo_thatch"
+  }
+}

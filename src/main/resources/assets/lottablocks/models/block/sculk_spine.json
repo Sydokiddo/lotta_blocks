@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "lottablocks:block/sculk_spine_top",
+    "side": "lottablocks:block/sculk_spine"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "lottablocks:block/bamboo_thatch",
+    "top": "lottablocks:block/bamboo_thatch",
+    "side": "lottablocks:block/bamboo_thatch"
+  }
+}

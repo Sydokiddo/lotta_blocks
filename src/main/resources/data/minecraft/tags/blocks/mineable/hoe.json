@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lottablocks:bamboo_thatch",
+    "lottablocks:bamboo_thatch_slab",
+    "lottablocks:bamboo_thatch_stairs"
+  ]
+}

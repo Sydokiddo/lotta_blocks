@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lottablocks:block/bamboo_thatch",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "lottablocks:block/bamboo_thatch",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "lottablocks:block/bamboo_thatch"
+    },
+    "facing=west": {
+      "model": "lottablocks:block/bamboo_thatch",
+      "y": 90
+    }
+  }
+}
