@@ -168,14 +168,6 @@ public class ModBlocks {
             .nonOpaque().mapColor(MapColor.CLEAR).sounds(BlockSoundGroup.GLASS)
             .luminance(5).emissiveLighting((state, world, pos) -> true)));
 
-//    public static final Block FRAMED_GLASS = registerBlock("framed_glass",
-//            new GlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.CLEAR)
-//            .nonOpaque().sounds(BlockSoundGroup.GLASS).hardness(0.5f).strength(0.5f)));
-
-//    public static final Block SCULK_SPINE = registerBlock("sculk_spine",
-//            new SculkSpineBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK)
-//            .mapColor(MapColor.OFF_WHITE).requiresTool().sounds(BlockSoundGroup.SCULK_CATALYST)));
-
     public static final Block BAMBOO_THATCH = registerBlock("bamboo_thatch",
             new BambooThatchBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.PALE_YELLOW)
             .sounds(BlockSoundGroup.SCAFFOLDING).strength(0.8f)));

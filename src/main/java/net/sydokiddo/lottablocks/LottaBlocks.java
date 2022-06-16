@@ -3,6 +3,7 @@ package net.sydokiddo.lottablocks;
 import com.google.common.collect.ImmutableMap;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -39,6 +40,12 @@ public class LottaBlocks implements ModInitializer {
 		ModSoundEvents.registerSounds();
 
 		LOGGER.info("Thank you for downloading Lotta Blocks! :)");
+
+		// Flammable Block Registry:
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAMBOO_THATCH, 60, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAMBOO_THATCH_SLAB, 60, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAMBOO_THATCH_STAIRS, 60, 20);
 
 		// Glow Ink Sac Applying:
 
