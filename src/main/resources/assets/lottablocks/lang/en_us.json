@@ -36,7 +36,6 @@
   "block.lottablocks.obsidian_pillar": "Obsidian Pillar",
   "block.lottablocks.amethyst_floodlight": "Amethyst Floodlight",
   "block.lottablocks.glow_glass": "Glow Glass",
-  "block.lottablocks.glow_glass_pane": "Glow Glass Pane",
   "block.lottablocks.framed_oak_planks": "Framed Oak Planks",
   "block.lottablocks.framed_birch_planks": "Framed Birch Planks",
   "block.lottablocks.framed_spruce_planks": "Framed Spruce Planks",
@@ -48,13 +47,5 @@
   "block.lottablocks.bamboo_thatch": "Bamboo Thatch",
   "block.lottablocks.bamboo_thatch_stairs": "Bamboo Thatch Stairs",
   "block.lottablocks.bamboo_thatch_slab": "Bamboo Thatch Slab",
-  "lottablocks.block.bamboo_torch": "Bamboo Torch",
-  "block.lottablocks.sculk_spine": "Sculk Spine",
-  "block.lottablocks.spinal_bricks": "Spinal Bricks",
-  "block.lottablocks.spinal_brick_slab": "Spinal Brick Slab",
-  "block.lottablocks.spinal_brick_stairs": "Spinal Brick Stairs",
-  "block.lottablocks.spinal_brick_wall": "Spinal Brick Wall",
-  "block.lottablocks.golden_bars": "Golden Bars",
-  "block.lottablocks.copper_bars": "Copper Bars",
-  "block.lottablocks.framed_glass": "Framed Glass"
+  "block.lottablocks.honeylamp": "Honeylamp"
 }
