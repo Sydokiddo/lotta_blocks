@@ -202,8 +202,16 @@ public class ModBlocks {
     new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT, MapColor.ORANGE)
     .sounds(BlockSoundGroup.CORAL).luminance(15).strength(0.6F)));
 
-    public static final Block PAPER_LANTERN = registerBlock("paper_lantern",
-    new ModPillarBlock(FabricBlockSettings.of(Material.DECORATION, MapColor.WHITE)
+    public static final Block SUNRISE_PAPER_LANTERN = registerBlock("sunrise_paper_lantern",
+    new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.YELLOW)
+    .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
+
+    public static final Block MOONSHINE_PAPER_LANTERN = registerBlock("moonshine_paper_lantern",
+    new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.BLUE)
+    .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
+
+    public static final Block BLOOMLIGHT_PAPER_LANTERN = registerBlock("bloomlight_paper_lantern",
+    new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.PINK)
     .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
 
 // Registry for Blocks:

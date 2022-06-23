@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/Y/",
+    "PTP",
+    "///"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:pink_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "lottablocks:bloomlight_paper_lantern",
+    "count": 1
+  }
+}

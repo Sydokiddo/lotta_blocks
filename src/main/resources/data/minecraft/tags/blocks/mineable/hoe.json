@@ -5,6 +5,8 @@
     "lottablocks:bamboo_thatch_slab",
     "lottablocks:bamboo_thatch_stairs",
     "lottablocks:honeylamp",
-    "lottablocks:paper_lantern"
+    "lottablocks:sunrise_paper_lantern",
+    "lottablocks:moonshine_paper_lantern",
+    "lottablocks:bloomlight_paper_lantern"
   ]
 }

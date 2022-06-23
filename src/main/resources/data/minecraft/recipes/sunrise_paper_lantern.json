@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/Y/",
+    "PTP",
+    "///"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "lottablocks:sunrise_paper_lantern",
+    "count": 1
+  }
+}
