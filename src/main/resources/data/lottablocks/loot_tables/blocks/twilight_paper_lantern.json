@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lottablocks:moonshine_paper_lantern"
+          "name": "lottablocks:twilight_paper_lantern"
         }
       ],
       "conditions": [

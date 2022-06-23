@@ -206,11 +206,11 @@ public class ModBlocks {
     new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.YELLOW)
     .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
 
-    public static final Block MOONSHINE_PAPER_LANTERN = registerBlock("moonshine_paper_lantern",
+    public static final Block TWILIGHT_PAPER_LANTERN = registerBlock("twilight_paper_lantern",
     new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.BLUE)
     .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
 
-    public static final Block BLOOMLIGHT_PAPER_LANTERN = registerBlock("bloomlight_paper_lantern",
+    public static final Block BLOOMING_PAPER_LANTERN = registerBlock("blooming_paper_lantern",
     new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.PINK)
     .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
 

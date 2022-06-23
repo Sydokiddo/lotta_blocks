@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:moonshine_paper_lantern"
+        "recipe": "minecraft:twilight_paper_lantern"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:moonshine_paper_lantern"
+      "minecraft:twilight_paper_lantern"
     ]
   }
 }

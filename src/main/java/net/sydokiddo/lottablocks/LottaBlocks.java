@@ -47,8 +47,8 @@ public class LottaBlocks implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAMBOO_THATCH_SLAB, 60, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAMBOO_THATCH_STAIRS, 60, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SUNRISE_PAPER_LANTERN, 60, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MOONSHINE_PAPER_LANTERN, 60, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLOOMLIGHT_PAPER_LANTERN, 60, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.TWILIGHT_PAPER_LANTERN, 60, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLOOMING_PAPER_LANTERN, 60, 20);
 
 		// Glow Ink Sac Applying:
 

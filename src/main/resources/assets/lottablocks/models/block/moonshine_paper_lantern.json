@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lottablocks:block/moonshine_paper_lantern"
-  }
-}

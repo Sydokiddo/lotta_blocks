@@ -1,16 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "/Y/",
+    " # ",
     "PTP",
-    "///"
+    " P "
   ],
   "key": {
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "Y": {
-      "item": "minecraft:blue_dye"
+    "#": {
+      "item": "minecraft:peony"
     },
     "P": {
       "item": "minecraft:paper"
@@ -20,7 +17,7 @@
     }
   },
   "result": {
-    "item": "lottablocks:moonshine_paper_lantern",
+    "item": "lottablocks:blooming_paper_lantern",
     "count": 1
   }
 }

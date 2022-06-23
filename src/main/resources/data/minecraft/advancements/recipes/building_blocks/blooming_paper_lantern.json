@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:bloomlight_paper_lantern"
+        "recipe": "minecraft:blooming_paper_lantern"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:bloomlight_paper_lantern"
+      "minecraft:blooming_paper_lantern"
     ]
   }
 }
