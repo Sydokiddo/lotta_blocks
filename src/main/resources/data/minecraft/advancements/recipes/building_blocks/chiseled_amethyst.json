@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_amethyst_shard": {
+    "has_amethyst_bricks": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:amethyst_shard"
+              "lottablocks:amethyst_bricks"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_amethyst_shard",
+      "has_amethyst_bricks",
       "has_the_recipe"
     ]
   ],

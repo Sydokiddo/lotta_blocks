@@ -34,6 +34,10 @@
     "lottablocks:obsidian_brick_stairs",
     "lottablocks:obsidian_brick_wall",
     "lottablocks:obsidian_pillar",
-    "lottablocks:amethyst_floodlight"
+    "lottablocks:amethyst_floodlight",
+    "lottablocks:calcite_bricks",
+    "lottablocks:calcite_brick_slab",
+    "lottablocks:calcite_brick_stairs",
+    "lottablocks:calcite_brick_wall"
   ]
 }

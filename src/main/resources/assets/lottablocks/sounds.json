@@ -176,5 +176,56 @@
       "lottablocks:block/lava_lamp/step5",
       "lottablocks:block/lava_lamp/step6"
     ]
+  },
+  "block.paper_lantern.place": {
+    "sounds": [
+      "lottablocks:block/paper_lantern/break1",
+      "lottablocks:block/paper_lantern/break2",
+      "lottablocks:block/paper_lantern/break3",
+      "lottablocks:block/paper_lantern/break4",
+      "lottablocks:block/paper_lantern/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.paper_lantern.break": {
+    "sounds": [
+      "lottablocks:block/paper_lantern/break1",
+      "lottablocks:block/paper_lantern/break2",
+      "lottablocks:block/paper_lantern/break3",
+      "lottablocks:block/paper_lantern/break4",
+      "lottablocks:block/paper_lantern/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.paper_lantern.hit": {
+    "sounds": [
+      "lottablocks:block/paper_lantern/break1",
+      "lottablocks:block/paper_lantern/break2",
+      "lottablocks:block/paper_lantern/break3",
+      "lottablocks:block/paper_lantern/break4",
+      "lottablocks:block/paper_lantern/break5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.paper_lantern.step": {
+    "sounds": [
+      "lottablocks:block/paper_lantern/step1",
+      "lottablocks:block/paper_lantern/step2",
+      "lottablocks:block/paper_lantern/step3",
+      "lottablocks:block/paper_lantern/step4",
+      "lottablocks:block/paper_lantern/step5",
+      "lottablocks:block/paper_lantern/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.paper_lantern.fall": {
+    "sounds": [
+      "lottablocks:block/paper_lantern/step1",
+      "lottablocks:block/paper_lantern/step2",
+      "lottablocks:block/paper_lantern/step3",
+      "lottablocks:block/paper_lantern/step4",
+      "lottablocks:block/paper_lantern/step5",
+      "lottablocks:block/paper_lantern/step6"
+    ]
   }
 }

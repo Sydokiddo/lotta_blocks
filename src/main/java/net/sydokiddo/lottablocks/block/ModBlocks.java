@@ -80,6 +80,23 @@ public class ModBlocks {
     new WallBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)
     .mapColor(MapColor.BROWN).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
 
+    public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
+    new Block(FabricBlockSettings.copyOf(Blocks.CALCITE)
+    .mapColor(MapColor.TERRACOTTA_WHITE).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs",
+    new ModStairsBlock(ModBlocks.CALCITE_BRICKS.getDefaultState(),
+    FabricBlockSettings.copyOf(Blocks.CALCITE)
+    .mapColor(MapColor.TERRACOTTA_WHITE).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
+    new SlabBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)
+    .mapColor(MapColor.TERRACOTTA_WHITE).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
+    new WallBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)
+    .mapColor(MapColor.TERRACOTTA_WHITE).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
     public static final Block CAST_IRON_BLOCK = registerBlock("cast_iron_block",
     new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
     .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
@@ -184,6 +201,10 @@ public class ModBlocks {
     public static final Block HONEYLAMP = registerBlock("honeylamp",
     new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT, MapColor.ORANGE)
     .sounds(BlockSoundGroup.CORAL).luminance(15).strength(0.6F)));
+
+    public static final Block PAPER_LANTERN = registerBlock("paper_lantern",
+    new ModPillarBlock(FabricBlockSettings.of(Material.DECORATION, MapColor.WHITE)
+    .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
 
 // Registry for Blocks:
 

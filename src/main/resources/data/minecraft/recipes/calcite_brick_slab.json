@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lottablocks:calcite_bricks"
+    }
+  },
+  "result": {
+    "item": "lottablocks:calcite_brick_slab",
+    "count": 6
+  }
+}

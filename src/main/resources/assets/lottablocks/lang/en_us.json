@@ -47,5 +47,10 @@
   "block.lottablocks.bamboo_thatch": "Bamboo Thatch",
   "block.lottablocks.bamboo_thatch_stairs": "Bamboo Thatch Stairs",
   "block.lottablocks.bamboo_thatch_slab": "Bamboo Thatch Slab",
-  "block.lottablocks.honeylamp": "Honeylamp"
+  "block.lottablocks.honeylamp": "Honeylamp",
+  "block.lottablocks.paper_lantern": "Paper Lantern",
+  "block.lottablocks.calcite_bricks": "Calcite Bricks",
+  "block.lottablocks.calcite_brick_slab": "Calcite Brick Slab",
+  "block.lottablocks.calcite_brick_stairs": "Calcite Brick Stairs",
+  "block.lottablocks.calcite_brick_wall": "Calcite Brick Wall"
 }
