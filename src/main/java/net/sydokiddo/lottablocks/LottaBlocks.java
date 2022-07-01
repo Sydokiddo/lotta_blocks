@@ -7,6 +7,8 @@ import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -29,6 +31,10 @@ public class LottaBlocks implements ModInitializer {
 
 	public static final ImmutableMap<Block, Block> GLOW_INK_SAC_APPLYING = ImmutableMap.<Block, Block>builder()
 			.put(Blocks.GLASS, ModBlocks.GLOW_GLASS)
+			.build();
+
+	public static final ImmutableMap<Block, Block> SCRAPING = ImmutableMap.<Block, Block>builder()
+			.put(ModBlocks.GLOW_GLASS, Blocks.GLASS)
 			.build();
 
 	@Override
@@ -85,6 +91,57 @@ public class LottaBlocks implements ModInitializer {
 
 						if(!player.isCreative()) {
 							heldItem.decrement(1);
+						}
+
+						return ActionResult.SUCCESS;
+					} else {
+						return ActionResult.PASS;
+					}
+				}
+			} else {
+				return ActionResult.PASS;
+			}
+
+			return ActionResult.PASS;
+		});
+
+		// Glow Glass Scraping:
+
+		UseBlockCallback.EVENT.register((player, world, hand, hitresult) -> {
+			if (player.getStackInHand(hand).getItem() instanceof AxeItem) {
+
+				var pos = hitresult.getBlockPos();
+				var block = world.getBlockState(pos);
+
+				if (block.isOf(ModBlocks.GLOW_GLASS)) {
+
+					var scrape = SCRAPING.get(block.getBlock());
+					if(scrape != null) {
+
+						// Change Block to Glowing Version
+
+						world.setBlockState(pos, Objects.requireNonNull(SCRAPING.get(block.getBlock())).getDefaultState());
+
+						// Particles and Sound Event
+
+						world.playSound(null, pos, SoundEvents.ITEM_AXE_WAX_OFF, SoundCategory.BLOCKS, 1f, 1f);
+						world.syncWorldEvent(player, 3004, pos, 1);
+
+						// Stats and Advancements
+
+						ItemStack heldItem = player.getStackInHand(hand);
+						Item item = heldItem.getItem();
+						player.incrementStat(Stats.USED.getOrCreateStat(item));
+						if (player instanceof ServerPlayerEntity) {
+							Criteria.ITEM_USED_ON_BLOCK.trigger((ServerPlayerEntity)player, pos, heldItem);
+						}
+
+						// Damages the Axe if the player is not in Creative Mode
+
+						ItemStack heldStack = player.getMainHandStack();
+
+						if(!player.isCreative()) {
+							heldStack.damage(1, player, (e) -> e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND));
 						}
 
 						return ActionResult.SUCCESS;
