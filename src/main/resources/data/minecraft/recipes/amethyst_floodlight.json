@@ -1,12 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ccc",
-    " A "
+    "###",
+    "#T#",
+    "#A#"
   ],
   "key": {
-    "c": {
-      "item": "minecraft:copper_ingot"
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "T": {
+      "item": "minecraft:torch"
     },
     "A": {
       "item": "minecraft:amethyst_shard"

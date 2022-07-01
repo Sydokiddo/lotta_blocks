@@ -38,6 +38,12 @@
     "lottablocks:calcite_bricks",
     "lottablocks:calcite_brick_slab",
     "lottablocks:calcite_brick_stairs",
-    "lottablocks:calcite_brick_wall"
+    "lottablocks:calcite_brick_wall",
+    "lottablocks:blue_nether_bricks",
+    "lottablocks:blue_nether_brick_slab",
+    "lottablocks:blue_nether_brick_stairs",
+    "lottablocks:blue_nether_brick_wall",
+    "lottablocks:chiseled_red_nether_bricks",
+    "lottablocks:chiseled_blue_nether_bricks"
   ]
 }

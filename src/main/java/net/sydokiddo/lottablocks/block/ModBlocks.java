@@ -177,7 +177,7 @@ public class ModBlocks {
     .mapColor(MapColor.BLACK).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block SOUL_GLASS = registerBlock("soul_glass",
-    new GlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.BROWN)
+    new SoulGlassBlock(FabricBlockSettings.of(Material.GLASS, MapColor.BROWN)
     .nonOpaque().sounds(BlockSoundGroup.GLASS).hardness(0.3f).strength(0.3f)));
 
     public static final Block GLOW_GLASS = registerBlock("glow_glass",
@@ -213,6 +213,31 @@ public class ModBlocks {
     public static final Block BLOOMING_PAPER_LANTERN = registerBlock("blooming_paper_lantern",
     new PaperLanternBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.PINK)
     .sounds(ModSoundEvents.PAPER_LANTERN).luminance(15).strength(0.2f)));
+
+    public static final Block BLUE_NETHER_BRICKS = registerBlock("blue_nether_bricks",
+    new Block(FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICKS)
+    .mapColor(MapColor.CYAN).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block BLUE_NETHER_BRICK_STAIRS = registerBlock("blue_nether_brick_stairs",
+    new ModStairsBlock(ModBlocks.BLUE_NETHER_BRICKS.getDefaultState(),
+    FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICK_STAIRS)
+    .mapColor(MapColor.CYAN).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block BLUE_NETHER_BRICK_SLAB = registerBlock("blue_nether_brick_slab",
+    new SlabBlock(FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICK_SLAB)
+    .mapColor(MapColor.CYAN).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block BLUE_NETHER_BRICK_WALL = registerBlock("blue_nether_brick_wall",
+    new WallBlock(FabricBlockSettings.copyOf(Blocks.RED_NETHER_BRICK_WALL)
+    .mapColor(MapColor.CYAN).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block CHISELED_BLUE_NETHER_BRICKS = registerBlock("chiseled_blue_nether_bricks",
+    new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_NETHER_BRICKS)
+    .mapColor(MapColor.CYAN).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block CHISELED_RED_NETHER_BRICKS = registerBlock("chiseled_red_nether_bricks",
+    new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_NETHER_BRICKS)
+    .mapColor(MapColor.DARK_RED).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
 // Registry for Blocks:
 

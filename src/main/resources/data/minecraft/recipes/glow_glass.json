@@ -1,20 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:glass"
     },
-    "G": {
+    {
       "item": "minecraft:glow_ink_sac"
     }
-  },
+  ],
   "result": {
     "item": "lottablocks:glow_glass",
-    "count": 8
+    "count": 1
   }
 }
